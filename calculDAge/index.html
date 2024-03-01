@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculateur d'âge</title>
+    <!-- Lien vers le fichier style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Lien vers le fichier script.js -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="main">
+        <h1>Calculateur d'âge</h1>
+        <form>
+          <label for="ageUser">Entrez votre date de naissance</label>
+          <input type="date" id="ageUser" name="ageUser" required />
+          <input type="button" value="Calculer l'âge" id="calculAge" />
+        </form>
+        <p>Votre âge est de <span id="ageValue">18</span> ans</p>
+        <p id="signeMoko">{{ Code_Oz }}</p>
+      </div>
+    </div>
+  </body>
+</html>
