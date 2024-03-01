@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculateur de pourboire</title>
+    <!-- Lien vers le fichier style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Lien vers le fichier script.js -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="main">
+        <h1>Calculateur de pourboire</h1>
+        <p>
+          Saisissez le montant de la facture et le pourcentage du pourboire pour
+          calculer le total.
+        </p>
+        <form>
+          <label for="montant">Montant de la facture:</label>
+          <input type="number" id="montant" name="montant" required />
+          <label for="pourboire">Pourcentage du pourboire:</label>
+          <input type="number" id="pourboire" name="pourboire" required />
+          <input type="button" value="Calculer" id="calculer" />
+        </form>
+        <p>Valeur du pourboire : <span id="pourboireValue"></span></p>
+        <p id="total">Totale : <span id="totalValue"></span></p>
+        <p id="signeMoko">{{ Code_Oz }}</p>
+      </div>
+    </div>
+  </body>
+</html>
