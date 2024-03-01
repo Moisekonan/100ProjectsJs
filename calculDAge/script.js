@@ -3,7 +3,7 @@ let calculAge = document.getElementById('calculAge');
 // fonction Recuperation des valeurs des inputs
 const recupererValeurs = () => {
     let ageUser = document.getElementById('ageUser');
-    let contentAgeValue = document.getElementById('ageValue');
+    let contentAgeValue = document.getElementById('contentAgeValue');
     return { ageUser, contentAgeValue };
 }
 
@@ -25,7 +25,7 @@ const calculerAge = () => {
     }
 
     // afficher l'âge
-    contentAgeValue.innerHTML = age;
+    contentAgeValue.innerHTML = `Votre âge est de <span id="ageValue">${age} ${age > 1 ? "ans" : "an"}</span>`;
 }
 
 // appel de la fonction calculerAge
