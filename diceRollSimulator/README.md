@@ -1,0 +1,4 @@
+# Projet de simulateur de lancer de dés - HTML, CSS, JavaScript
+
+## Description du projet
+Bienvenue dans le projet Dice Roll Simulator. La version finale du projet comporte un dé au centre de l'écran et un bouton "Lancer les dés". Le bouton déclenche une animation et génère un nombre aléatoire, qui s'affiche au centre du dé lorsqu'on clique dessus, t. De plus, le numéro est ajouté à une liste historique. Pour y parvenir, nous avons utilisé du CSS moderne pour styliser les dés et ajouté un écouteur d'événement JavaScript au bouton. L'écouteur génère un nombre aléatoire, l'enregistre dans un tableau et met à jour la liste historique.
